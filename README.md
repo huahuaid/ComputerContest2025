@@ -1,8 +1,5 @@
 # My Project
 
---- 
-test
-
 ## 项目简介
 这是一个示例项目，用于演示如何规范化 Git 分支管理和 `README.md` 文件。
 
