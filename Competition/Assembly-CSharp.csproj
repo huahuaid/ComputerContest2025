@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scrpits\01_Maze_One\Level.cs" />
+    <Compile Include="Assets\Scrpits\01_Maze_One\Rotation.cs" />
     <Compile Include="Assets\Scrpits\01_Maze_One\Enemy.cs" />
     <Compile Include="Assets\Scrpits\01_Maze_One\DamageSystem.cs" />
     <Compile Include="Assets\Scrpits\01_Maze_One\PlayerController.cs" />
