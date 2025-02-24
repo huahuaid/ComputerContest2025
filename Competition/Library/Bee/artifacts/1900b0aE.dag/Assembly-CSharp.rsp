@@ -353,11 +353,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"E:/unity/2022.3.53f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"E:/unity/2022.3.53f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Scrpits/DamageSystem.cs"
-"Assets/Scrpits/Enemy.cs"
-"Assets/Scrpits/EnemyProximityAlert.cs"
-"Assets/Scrpits/Level.cs"
-"Assets/Scrpits/PlayerController.cs"
+"Assets/Scrpits/01_Maze_One/DamageSystem.cs"
+"Assets/Scrpits/01_Maze_One/Enemy.cs"
+"Assets/Scrpits/01_Maze_One/EnemyProximityAlert.cs"
+"Assets/Scrpits/01_Maze_One/Level.cs"
+"Assets/Scrpits/01_Maze_One/PlayerController.cs"
 -langversion:9.0
 /deterministic
 /optimize+
