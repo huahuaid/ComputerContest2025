@@ -359,6 +359,7 @@
 "Assets/Scrpits/01_Maze_One/Enemy.cs"
 "Assets/Scrpits/01_Maze_One/EnemyProximityAlert.cs"
 "Assets/Scrpits/01_Maze_One/EnemyVisibility.cs"
+"Assets/Scrpits/01_Maze_One/GameSpawner.cs"
 "Assets/Scrpits/01_Maze_One/Level.cs"
 "Assets/Scrpits/01_Maze_One/MapGenerator.cs"
 "Assets/Scrpits/01_Maze_One/PlayerController.cs"

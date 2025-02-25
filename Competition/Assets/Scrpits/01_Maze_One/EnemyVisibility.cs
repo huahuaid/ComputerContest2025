@@ -41,7 +41,6 @@ public class EnemyVisibility : MonoBehaviour
         color.a = alpha;
         enemyRenderer.material.color = color;
         
-        // 根据透明度切换材质
         enemyRenderer.material = alpha > 0.1f ? visibleMaterial : hiddenMaterial;
     }
 }
