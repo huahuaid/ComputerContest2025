@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5755917968718377710}
   - component: {fileID: 4662680929634277510}
   - component: {fileID: 4140542611131618323}
+  - component: {fileID: 5793502407983868073}
   m_Layer: 0
   m_Name: Cow
   m_TagString: Enemy
@@ -88,7 +89,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!54 &8440303620443100036
 Rigidbody:
@@ -155,7 +156,7 @@ MonoBehaviour:
   patrolSpeed: 1.5
   chaseSpeed: 2
   detectionRange: 0.5
-  player: {fileID: 879442200725405760, guid: cd2133f582c24004ba08002cbbd155a7, type: 3}
+  player: {fileID: 0}
 --- !u!65 &4662680929634277510
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -198,6 +199,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.8594944, y: 2.667922, z: 1.7694502}
   m_Center: {x: -0.0606817, y: -0.666039, z: -0.11586332}
+--- !u!114 &5793502407983868073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2575138566965840780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c2fb4bd9ee8f74d8a79dce30a8c9b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visibleMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  hiddenMaterial: {fileID: 2100000, guid: bce7937fe6a8c2947a88b75a0f5c6c09, type: 2}
+  fadeSpeed: 2
 --- !u!1 &5791164379987028279
 GameObject:
   m_ObjectHideFlags: 0

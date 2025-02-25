@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
 	{
 		player = GetComponent<Rigidbody>();
 		animator = GetComponent<Animator>();
-		RandomizeInitialRotation();
+		// RandomizeInitialRotation();
 	}
 
 	void Update()
@@ -111,15 +111,12 @@ public class PlayerController : MonoBehaviour
 		return new Vector3(Mathf.Sin(angleInRadians), 0, Mathf.Cos(angleInRadians)).normalized;
 	}
 
-	void RandomizeInitialRotation()
-	{
-		// 随机选择一个角度（0度、90度、180度、270度）
-		float[] possibleRotations = { 0f, 90f, 180f, 270f };
-		float randomRotation = possibleRotations[Random.Range(0, possibleRotations.Length)];
-
-		// 设置角色的初始旋转
-		transform.rotation = Quaternion.Euler(0, randomRotation, 0);
-	}
+	// void RandomizeInitialRotation()
+	// {
+	// 	float[] possibleRotations = { 0f, 90f, 180f, 270f };
+	// 	float randomRotation = possibleRotations[Random.Range(0, possibleRotations.Length)];
+	// 	transform.rotation = Quaternion.Euler(0, randomRotation, 0);
+	// }
 
 	void Survive(){
 		if (health <= 0)

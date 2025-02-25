@@ -358,8 +358,12 @@
 "Assets/Scrpits/01_Maze_One/DamageSystem.cs"
 "Assets/Scrpits/01_Maze_One/Enemy.cs"
 "Assets/Scrpits/01_Maze_One/EnemyProximityAlert.cs"
+"Assets/Scrpits/01_Maze_One/EnemyVisibility.cs"
+"Assets/Scrpits/01_Maze_One/GameSpawner.cs"
 "Assets/Scrpits/01_Maze_One/Level.cs"
+"Assets/Scrpits/01_Maze_One/MapGenerator.cs"
 "Assets/Scrpits/01_Maze_One/PlayerController.cs"
+"Assets/Scrpits/01_Maze_One/PlayerLight.cs"
 "Assets/Scrpits/01_Maze_One/Rotation.cs"
 -langversion:9.0
 /deterministic
